@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportHeight="24.0"
+    android:viewportWidth="24.0">
+
+    <group
+        android:name="rotationGroup"
+        android:pivotX="9.5"
+        android:pivotY="9.5"
+        android:rotation="180">
+
+        <path
+            android:name="search_circle_base"
+            android:pathData="M13.3843083,13.3956843 C11.233862,15.5399983 7.7581039,15.5381046 5.61000013,13.3900003 C3.46000004,11.2399998 3.46000004,7.76000023 5.61000013,5.61000013 C7.76000023,3.46000004 11.2400007,3.46000004 13.3900003,5.61000013 C15.54,7.76000023 15.5400009,11.2400007 13.3900003,13.3900003 C13.388104,13.3918967 13.3862067,13.3937913 13.3843083,13.3956843 Z"
+            android:strokeColor="#4DFF0000"
+            android:strokeWidth="2" />
+
+        <path
+            android:name="search_circle"
+            android:pathData="M13.3843083,13.3956843 C11.233862,15.5399983 7.7581039,15.5381046 5.61000013,13.3900003 C3.46000004,11.2399998 3.46000004,7.76000023 5.61000013,5.61000013 C7.76000023,3.46000004 11.2400007,3.46000004 13.3900003,5.61000013 C15.54,7.76000023 15.5400009,11.2400007 13.3900003,13.3900003 C13.388104,13.3918967 13.3862067,13.3937913 13.3843083,13.3956843 Z"
+            android:strokeColor="#FF0000"
+            android:strokeWidth="2" />
+
+    </group>
+
+    <path
+        android:name="search_handle"
+        android:pathData="M13.3843083,13.3956843 L19.6826172,19.7987061 Z"
+        android:strokeColor="#FF0000"
+        android:strokeWidth="2" />
+
+</vector>

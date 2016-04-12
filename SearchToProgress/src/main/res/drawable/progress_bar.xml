@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/search" >
+    <target
+        android:animation="@anim/rotation"
+        android:name="search_circle" />
+
+    <target
+        android:animation="@anim/progress_indeterminate_rotation_material"
+        android:name="search_circle" />
+
+    <target
+        android:animation="@anim/hide_handle"
+        android:name="search_handle" />
+</animated-vector>
